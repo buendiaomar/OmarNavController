@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class GreenViewController: UIViewController {
+    var mySeque = "mySeque"
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBAction func buttonPressed(_ sender: Any) {
+        performSegue(withIdentifier: mySeque, sender: nil)
+        
+    }
+    
 
 }
 

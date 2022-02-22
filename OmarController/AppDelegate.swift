@@ -2,7 +2,8 @@
 //  AppDelegate.swift
 //  OmarController
 //
-//  Created by Consultant on 2/21/22.
+//  Created by Omar Buendia on 2/21/22.
+
 //
 
 import UIKit
